@@ -1,0 +1,102 @@
+/*Cores e Fontes*/
+body {
+    background-color:rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+    font-family: 'Andika', sans-serif;
+    /*Roboto tipo especial de sans-serif*/
+    font-size: 16px;
+    text-align: justify;
+    padding: 1px;
+}
+/*Navegação, link*/
+a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+/*Passar mouse*/
+a:hover {
+    color:rgb(72, 57, 37);
+}
+
+
+/*Seções*/
+header {
+    background-color:rgb(140, 207, 207);
+    color:rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(110, 92, 69);
+    float: left;
+    width: 100%;
+    padding: 0 0 10px 0;
+
+}
+
+nav ul {
+    margin-bottom: 0;
+}
+
+nav ul li {
+    /*Inline mas pode alterar largura, altura, margem*/
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    color:midnightblue
+}
+
+.button-as-link{
+    background-color: rgb(140, 207, 207);
+    font-size: 16px;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px;
+    margin: 5px;
+}
+
+section {
+    background-color: rgb(211, 207, 202);
+    border: 1px solid #122222;
+    padding: 20px;
+    font-family: 'Andika', sans-serif;
+}
+
+aside {
+    background-color: rgb(140, 207, 207);
+    color: #333333;
+    padding: 5px;
+    margin: 5px 0;
+    float: right;
+    width: 45%;
+    border-radius: 50px;
+}
+
+article {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-family: 'Andika', sans-serif;
+}
+
+p{
+    text-indent: 1.5em;
+    text-align: justify;
+}
+
+ul {
+    text-align: center;
+
+}
+
+footer{
+    color:rgb(255, 255, 255);
+}
+
+blockquote{
+    text-align: justify;
+}
