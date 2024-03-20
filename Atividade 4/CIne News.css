@@ -1,0 +1,86 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+}
+
+header {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo {
+    margin-right: 10px;
+    width: 10%;
+    height: auto;
+}
+
+nav {
+    background-color: #333333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #5DA63C;
+}
+
+nav a:hover {
+    background-color: #4C8C28;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.news-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #333333;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    max-width: 800px;
+}
+
+.news-section h2 {
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.news-section p {
+    color: #CCCCCC;
+}
+
+/* Estilos para largura de tela menor ou igual a 400px */
+@media (max-width: 400px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 5px 0;
+        padding: 10px;
+    }
+}
