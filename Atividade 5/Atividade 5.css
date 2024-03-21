@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.color-box {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #ffffff; 
+
+    }
+
+    @media (min-width: 420px) {
+    .color-box {
+        background-color: #d13c3c;
+    }
+    .color-box h2::before {
+        color: #000000;
+        content: "Vermelho";
+    }
+
+
+    @media (min-width: 600px) {
+    .color-box {
+        background-color: #873cd1;
+    }
+    .color-box h2::before {
+        color: #000000;
+        content: "Roxo";
+    }
+
+@media (min-width: 800px) {
+    .color-box {
+        background-color: #9ee098; 
+    }
+    .color-box h2::before {
+        color: #000000; 
+        content: "Verde";
+    }
+}
+
+@media (min-width: 1000px) {
+    .color-box {
+        background-color: #6ec0f3;
+    }
+    .color-box h2::before {
+        color: #000000;
+        content: "Azul Claro";
+    }
+
+@media (min-width: 1200px) {
+    .color-box {
+        background-color: #426440;
+    }
+    .color-box h2::before {
+        color: #000000;
+        content: "Verde Escuro";
+    }
+
+
+@media (min-width: 1400px) {
+    .color-box {
+        background-color: #383bc5;
+    }
+    .color-box h2::before {
+        color: #000000;
+        content: "Azul Escuro";
+    }
+
+@media (min-width: 1600px) {
+    .color-box {
+        background-color: #000000;
+    }
+    .color-box h2::before {
+        color: #ffffff;
+        content: "Preto";
+    }
+
+}
